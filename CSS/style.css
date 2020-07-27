@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.text{
+    line-height: 21px;
+    font-weight: 300;
+    font-family: Roboto;
+    color: #000000;
+}
+nav{
+    height: 94px;
+    background: #3A72B5;
+}
+.img{
+    margin-left: 8px;
+    width: 70px;
+    height: 70px;
+}
+.card, .container{
+    border-radius: 8px;
+}
+.container{
+    margin: 196px auto 0;
+    padding:42px 55px 27px 55px;
+    width: 986px;
+    height: 580px;
+    background: #DBDBDB;
+
+}
+.card{
+    padding-top: 22px;
+    background-color: white;
+}
+.top{
+    display:flex;
+    padding-bottom: 29px;
+    
+}
+
+.friends, 
+.profile{
+    width: 419px;
+    height: 238px;
+  
+}
+.friends-title,
+.profile-title{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+}
+
+.friends{
+    padding: 17px 7px 20px 22px;
+    
+}
+.friends-title{
+    width: 173px;
+}
+.img-friends{
+    padding-top: 7px;
+
+}
+.profile{
+    position: relative;
+    left: 38px;
+    padding: 17px 20px 11px 24px;
+    
+}
+.profile-title{
+    float:right;
+    right: 22px;
+}
+.user-data{
+  display: block;
+}
+.profile-row1,
+.profile-row2,
+.profile-row3{
+    display: flex;
+}
+.profile-row2{
+    padding-top:13px ;
+    padding-bottom: 13px;
+}
+.left,
+.right{
+    position: relative;
+    top: 59px;
+    width: 83px;
+}
+.right{
+    left: 199px;
+}
+.bottom{
+    padding: 18px 15px 25px 21px;
+    width: 876px;
+    height: 238px;
+}
+.text1,
+.text2{
+    text-align: center;
+}
+.text2{
+    padding-top: 23px;
+}
